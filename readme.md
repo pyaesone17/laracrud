@@ -5,10 +5,18 @@
 Laracrud is a scalfolding CRUD generator for Laravel Framework.
 Dont Repeat Yourself with the thing you always do , just generate it.
 
+##Installation
+
+You can install this package via composer using this command:
+
+```
+	composer require pyaesone17/laracrud:dev-master	
+```
+
 ## Documentation
 
-It fully depends on your model .
-So create Model first and include your attributes in fillable array.
+My packages is fully depends on laravel eloquent model .
+So you have to create Model first and include attributes in fillable array.
 
 ```php
 
@@ -51,19 +59,22 @@ Then you can easily create my generator like this
 
 ```
 
-It will generate 
+It will generate (Route,Controller,Repositories,Migration Files,CRUD view)
 
 1. resourceful route 
-2. resourceful controller (CandidateController)
-3. Base Repository and ChildRepository (BaseRepository and CandidateRepository in Repositories folder)
-4. Migration file (create_candidates_table in migration folder)
-5. CRUD template in views folder (crud view in crud_candidate folder inside the views folder)
+2. resourceful controller (**CandidateController** inside the Http/Controllers)
+3. Base Repository and ChildRepository (**BaseRepository** and **CandidateRepository** in **Repositories** folder)
+4. Migration file (**create_candidates_table** in migration folder)
+5. CRUD template in views folder (**crud_candidate** view is located inside the **views** folder)
+
+But you have to define **master.blade.php** and include **bootstrap framework** in your master view to work well with my CRUD template.
 
 ##Tips
 
-In generating , you will be asked whether to generate repo or not.
-If you chose yes, it will create repo and controller that match the repo, 
-Otherwise it will create simple controller that use Model directly.
+1. In generating , you will be asked whether to generate repo or not.
+2. If you chose yes, it will create repo and controller that match the repo, 
+3. Otherwise it will create simple controller that use Model directly.
+
 
 ##Todos
 1. creating migration file with many fields
