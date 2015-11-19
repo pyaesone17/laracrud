@@ -28,7 +28,11 @@ class Candidate extends Model
 
 ?>
 
+	
+```
+
 Dont Forget to register Service Provider Like this in config/app.php
+
 
 ```
     'providers' => [
@@ -38,8 +42,7 @@ Dont Forget to register Service Provider Like this in config/app.php
 
 ```
 
-	
-```
+
 
 Then you can easily create my generator like this
 
