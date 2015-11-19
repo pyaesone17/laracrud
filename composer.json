@@ -1,6 +1,7 @@
 {
-    "name": "root/laracrud",
-
+    "name": "pyaesone17/laracrud",
+    "keywords": ["laracrud","laravel"],
+    "homepage": "https://github.com/pyaesone17/laracrud",
     "autoload": {
 
         "psr-4": {
@@ -18,6 +19,6 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "laravel/framework": "~5.0",
+        "laravel/framework": "~5.0"
     }
 }
