@@ -1,0 +1,23 @@
+{
+    "name": "root/laracrud",
+
+    "autoload": {
+
+        "psr-4": {
+
+            "Veve\\Laracrud\\": "src"
+        }     
+        
+    },
+    
+    "authors": [
+        {
+            "name": "pyaesone17",
+            "email": "promise286@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "~5.0",
+    }
+}
