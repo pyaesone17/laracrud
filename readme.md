@@ -75,6 +75,10 @@ But you have to define **master.blade.php** and include **bootstrap framework** 
 2. If you chose yes, it will create repo and controller that match the repo, 
 3. Otherwise it will create simple controller that use Model directly.
 
+##Note
+Why I chose to output html code directly ?
+
+Because **HTML** code is more **readable** and you can easily **change** or **modify** the code.
 
 ##Todos
 1. creating migration file with many fields
