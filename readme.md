@@ -7,7 +7,7 @@ Dont Repeat Yourself with the thing you always do , just generate it.
 
 ## Documentation
 
-It fully depends on your model.
+It fully depends on your model .
 So create Model first and include your attributes in fillable array.
 
 ```php
