@@ -1,5 +1,6 @@
 {
     "name": "pyaesone17/laracrud",
+    "description": "Laravel CRUD Package",
     "keywords": ["laracrud","laravel"],
     "homepage": "https://github.com/pyaesone17/laracrud",
     "autoload": {
