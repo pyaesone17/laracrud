@@ -49,11 +49,11 @@ Then you can easily create my generator like this
 ```
 
 It will generate 
-1.resourceful route 
-2.resourceful controller (CandidateController)
-3.Base Repository and ChildRepository (BaseRepository and CandidateRepository in Repositories folder)
-4.Migration file (create_candidates_table in migration folder)
-5.CRUD template in views folder (crud view in crud_candidate folder inside the views folder)
+1. resourceful route 
+2. resourceful controller (CandidateController)
+3. Base Repository and ChildRepository (BaseRepository and CandidateRepository in Repositories folder)
+4. Migration file (create_candidates_table in migration folder)
+5. CRUD template in views folder (crud view in crud_candidate folder inside the views folder)
 
 ##Tips
 
@@ -62,9 +62,9 @@ If you chose yes, it will create repo and controller that match the repo,
 Otherwise it will create simple controller that use Model directly.
 
 ##Todos
-1.creating migration file with many fields
-2.creating more methods in Base Repo
-3.So Many Things
+1. creating migration file with many fields
+2. creating more methods in Base Repo
+3. So Many Things
 
 
 
