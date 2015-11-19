@@ -49,6 +49,7 @@ Then you can easily create my generator like this
 ```
 
 It will generate 
+
 1. resourceful route 
 2. resourceful controller (CandidateController)
 3. Base Repository and ChildRepository (BaseRepository and CandidateRepository in Repositories folder)
